@@ -36,7 +36,7 @@ module.exports = {
 
   //Please go to https://developer.spotify.com/dashboard/
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "", //Spotify Client ID
+    ClientID: process.env.Spotify_ClientID || "5fcc2fd691cb4deb845299578b7e0ce8", //Spotify Client ID
     ClientSecret: process.env.Spotify_ClientSecret || "", //Spotify Client Secret
   },
 };
